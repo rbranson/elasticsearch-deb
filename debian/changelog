@@ -1,3 +1,9 @@
+elasticsearch (0.17.8) lucid; urgency=low
+
+  * New upstream version.
+
+ -- Rick Branson <rick@diodeware.com>  Fri, 7 Oct 2011 14:10:07 -0500
+
 elasticsearch (0.16.2-0sg0) foss-development; urgency=low
 
   * New upstream version.
