@@ -7,9 +7,6 @@ do_purge()
     for d in /var/lib/elasticsearch /var/log/elasticsearch; do
         rm -rf $d
     done
-
-    for d in data logs; do
-    done
 }
 
 case "$1" in
