@@ -12,6 +12,9 @@ logger:
   # peer shard recovery
   #index.shard.recovery: DEBUG
 
+  # discovery
+  #discovery: TRACE
+
 appender:
   console:
     type: console
@@ -26,3 +29,4 @@ appender:
     layout:
       type: pattern
       conversionPattern: "[%d{ISO8601}][%-5p][%-25c] %m%n"
+      
