@@ -2,10 +2,9 @@
 #cluster.name: elasticsearch
 
 # Path Settings
-#path.conf: /path/to/conf
-#path.data: /path/to/data
-#path.work: /path/to/work
-#path.logs: /path/to/logs
+path:
+  data: /var/lib/elasticsearch
+  logs: /var/log/elasticsearch
 
 # Force all memory to be locked, forcing the JVM to never swap
 #bootstrap.mlockall: true

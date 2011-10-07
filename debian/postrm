@@ -4,8 +4,11 @@ set -e
 
 do_purge()
 {
+    for d in /var/lib/elasticsearch /var/log/elasticsearch; do
+        rm -rf $d
+    done
+
     for d in data logs; do
-        rm -rf /usr/share/elasticsearch/$d
     done
 }
 
