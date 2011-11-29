@@ -2,7 +2,7 @@ Source: elasticsearch
 Section: net
 Priority: extra
 Maintainer: SimpleGeo Nerds <nerds@simplegeo.com>
-Uploaders: Rick Branson <rick@diodeware.com.com>
+Uploaders: Rick Branson <rick@diodeware.com>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.8.3
 Homepage: http://www.elasticsearch.org/
