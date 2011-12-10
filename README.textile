@@ -2,8 +2,8 @@ h1. Building The Package
 
 It's easy!
 
-    $ sudo apt-get install autotools-dev fakeroot dh-make
-    $ dpkg-buildpackage
+@$ sudo apt-get install autotools-dev fakeroot dh-make@
+@$ dpkg-buildpackage@
 
 h1. ElasticSearch
 
